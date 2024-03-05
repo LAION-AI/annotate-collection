@@ -1,7 +1,24 @@
 import os
 import json
 
-projects = ["p1", "ptest"]
+def update_projects_list(directory):
+    # Get list of all directories in directory
+    all_dirs = [d for d in os.listdir(directory) if os.path.isdir(os.path.join(directory, d))]
+    
+    # Open the projects.json file
+    with open('./projects/projects.json', 'r+') as file:
+        # Load the JSON data
+        data = json.load(file)
+
+        # Modify the JSON data to include the list of project directories
+        # data['projects'] = sorted(all_dirs)
+        for i in range(len(data)):
+            data[i]['folder'] = all_dirs[i]
+
+        # Write the modified JSON data back to the file
+        file.seek(0)
+        json.dump(data, file, indent=4)
+        file.truncate()
 
 def update_image_list(directory):
     # Get list of all files in directory
@@ -16,7 +33,7 @@ def update_image_list(directory):
         data = json.load(file)
 
         # Modify the "images" key
-        data['images'] = image_files
+        data['images'] = sorted(image_files)
 
         # Write the modified JSON data back to the file
         file.seek(0)
@@ -24,5 +41,8 @@ def update_image_list(directory):
         file.truncate()
         
 if __name__ == '__main__':
-    for p in projects:
-        update_image_list(f'./projects/{p}')
+    update_projects_list('./projects')
+    ### list only directorys in os.listdir()
+    for p in os.listdir('./projects'):
+        if os.path.isdir(os.path.join('./projects', p)):
+            update_image_list(f'./projects/{p}')
