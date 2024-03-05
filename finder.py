@@ -1,6 +1,8 @@
 import os
 import json
 
+projects = ["p1", "ptest"]
+
 def update_image_list(directory):
     # Get list of all files in directory
     all_files = os.listdir(os.path.join(directory, "images"))
@@ -22,4 +24,5 @@ def update_image_list(directory):
         file.truncate()
         
 if __name__ == '__main__':
-    update_image_list('./projects/p1')
+    for p in projects:
+        update_image_list(f'./projects/{p}')
