@@ -1,5 +1,6 @@
 import os
 import json
+import random
 
 def update_projects_list(directory):
     # Get list of all directories in directory
@@ -20,7 +21,7 @@ def update_projects_list(directory):
         json.dump(data, file, indent=4)
         file.truncate()
 
-def update_image_list(directory):
+def update_image_list(directory, randomize=False):
     # Get list of all files in directory
     all_files = os.listdir(os.path.join(directory, "images"))
 
@@ -33,7 +34,10 @@ def update_image_list(directory):
         data = json.load(file)
 
         # Modify the "images" key
-        data['images'] = sorted(image_files)
+        if randomize == False:
+            data['images'] = sorted(image_files)
+        else:
+            data['images'] = random.sample(image_files, len(image_files))
 
         # Write the modified JSON data back to the file
         file.seek(0)
@@ -45,4 +49,4 @@ if __name__ == '__main__':
     ### list only directorys in os.listdir()
     for p in os.listdir('./projects'):
         if os.path.isdir(os.path.join('./projects', p)):
-            update_image_list(f'./projects/{p}')
+            update_image_list(f'./projects/{p}', randomize=True)
