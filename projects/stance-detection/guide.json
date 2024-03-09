@@ -1,343 +1,337 @@
 {
     "instructions": "Please annotate the following images the best you can regarding their emotions",
     "options": {
-        "sliders": {
-            "min": 1,
-            "max": 7,
-            "step": 1,
-            "defaultValue": 1,
-            "labels": {
-                "Amusement": [
-                    "lighthearted fun",
-                    "amusement",
-                    "mirth",
-                    "joviality",
-                    "laughter",
-                    "playfulness",
-                    "silliness",
-                    "jesting",
-                    "delight"
-                ],
-                "Elation": [
-                    "happiness",
-                    "excitement",
-                    "joy",
-                    "exhilaration",
-                    "laughter",
-                    "jubilation",
-                    "Cheerfulness"
-                ],
-                "Pleasure/Ecstasy": [
-                    "ecstasy",
-                    "pleasure",
-                    "bliss",
-                    "Beatitude"
-                ],
-                "Contentment": [
-                    "contentment",
-                    "relaxation",
-                    "peacefulness",
-                    "calmness",
-                    "satisfaction",
-                    "Ease",
-                    "Serenity",
-                    "bliss",
-                    "fulfillment",
-                    "gladness",
-                    "lightness",
-                    "serenity",
-                    "tranquility"
-                ],
-                "Thankfulness/Gratitude": [
-                    "thankfulness",
-                    "gratitude",
-                    "appreciation",
-                    "gratefulness"
-                ],
-                "Affection": [
-                    "sympathy",
-                    "compassion",
-                    "warmth",
-                    "trust",
-                    "caring",
-                    "forgiveness",
-                    "Devotion",
-                    "Tenderness",
-                    "Reverence"
-                ],
-                "Infatuation": [
-                    "infatuation",
-                    "having a crush",
-                    "romantic desire",
-                    "fondness",
-                    "butterflies in the stomach",
-                    "adoration"
-                ],
-                "Hope/Enthusiasm/Optimism": [
-                    "hope",
-                    "enthusiasm",
-                    "optimism",
-                    "Anticipation",
-                    "Courage",
-                    "Encouragement",
-                    "Zeal",
-                    "fervor",
-                    "inspiration",
-                    "Determination"
-                ],
-                "Triumph": [
-                    "triumph",
-                    "superiority",
-                    "hubris"
-                ],
-                "Pride": [
-                    "pride",
-                    "dignity",
-                    "self-confidently",
-                    "honor",
-                    "self-consciousness"
-                ],
-                "Interest": [
-                    "interest",
-                    "fascination",
-                    "curiosity",
-                    "need for cognition"
-                ],
-                "Awe": [
-                    "awe",
-                    "awestruck",
-                    "wonder"
-                ],
-                "Astonishment/Surprise": [
-                    "astonishment",
-                    "surprise",
-                    "amazement",
-                    "shock",
-                    "startlement"
-                ],
-                "Concentration": [
-                    "concentration",
-                    "deep focus",
-                    "engrossment",
-                    "absorption",
-                    "attention"
-                ],
-                "Contemplation": [
-                    "contemplation",
-                    "thoughtfulness",
-                    "pondering",
-                    "reflection",
-                    "meditation",
-                    "Brooding",
-                    "Pensiveness"
-                ],
-                "Relief": [
-                    "relief",
-                    "respite",
-                    "alleviation",
-                    "solace",
-                    "comfort",
-                    "liberation"
-                ],
-                "Longing": [
-                    "yearning",
-                    "longing",
-                    "pining",
-                    "wistfulness",
-                    "nostalgia",
-                    "Craving",
-                    "desire",
-                    "benign envy",
-                    "homesickness"
-                ],
-                "Teasing": [
-                    "teasing",
-                    "bantering",
-                    "mocking playfully",
-                    "ribbing",
-                    "provoking lightly"
-                ],
-                "Impatience and Irritability": [
-                    "impatience",
-                    "irritability",
-                    "irritation",
-                    "restlessness",
-                    "short-temperedness",
-                    "exasperation"
-                ],
-                "Sexual Lust": [
-                    "sexual lust",
-                    "carnal desire",
-                    "lust",
-                    "feeling horny",
-                    "feeling turned on"
-                ],
-                "Doubt": [
-                    "doubt",
-                    "distrust",
-                    "suspicion",
-                    "skepticism",
-                    "uncertainty",
-                    "Pessimism"
-                ],
-                "Fear": [
-                    "fear",
-                    "terror",
-                    "dread",
-                    "apprehension",
-                    "alarm",
-                    "horror",
-                    "panic",
-                    "nervousness"
-                ],
-                "Distress": [
-                    "worry",
-                    "anxiety",
-                    "unease",
-                    "anguish",
-                    "trepidation",
-                    "Concern",
-                    "Upset",
-                    "pessimism",
-                    "foreboding"
-                ],
-                "Confusion": [
-                    "confusion",
-                    "bewilderment",
-                    "disorientation",
-                    "Perplexity"
-                ],
-                "Embarrassment": [
-                    "embarrassment",
-                    "shyness",
-                    "mortification",
-                    "discomfiture",
-                    "awkwardness",
-                    "Self-Consciousness"
-                ],
-                "Shame": [
-                    "shame",
-                    "guilt",
-                    "remorse",
-                    "humiliation",
-                    "contrition"
-                ],
-                "Disappointment": [
-                    "disappointment",
-                    "regret",
-                    "dismay",
-                    "letdown",
-                    "chagrin"
-                ],
-                "Sadness": [
-                    "sadness",
-                    "sorrow",
-                    "grief",
-                    "melancholy",
-                    "Dejection",
-                    "Despair",
-                    "Self-Pity",
-                    "Sullenness",
-                    "heartache",
-                    "mournfulness",
-                    "misery"
-                ],
-                "Bitterness": [
-                    "resentment",
-                    "acrimony",
-                    "bitterness",
-                    "cynicism",
-                    "rancor",
-                    "malicious envy"
-                ],
-                "Contempt": [
-                    "contempt",
-                    "disapproval",
-                    "scorn",
-                    "disdain",
-                    "loathing",
-                    "Detestation"
-                ],
-                "Disgust": [
-                    "disgust",
-                    "revulsion",
-                    "repulsion",
-                    "abhorrence",
-                    "loathing"
-                ],
-                "Anger": [
-                    "anger",
-                    "rage",
-                    "fury",
-                    "hate",
-                    "irascibility",
-                    "enragement",
-                    "Wrath",
-                    "Annoyance"
-                ],
-                "Malevolence/Malice": [
-                    "spite",
-                    "sadism",
-                    "malevolence",
-                    "malice",
-                    "malicious envy",
-                    "revenge",
-                    "desire to harm",
-                    "schadenfreude"
-                ],
-                "Sourness": [
-                    "sourness",
-                    "tartness",
-                    "acidity",
-                    "acerbity",
-                    "sharpness"
-                ],
-                "Pain": [
-                    "physical pain",
-                    "suffering",
-                    "torment",
-                    "ache",
-                    "agony"
-                ],
-                "Helplessness": [
-                    "helplessness",
-                    "hopelessness",
-                    "powerlessness",
-                    "desperation",
-                    "submission"
-                ],
-                "Fatigue/Exhaustion": [
-                    "fatigue",
-                    "exhaustion",
-                    "weariness",
-                    "lethargy",
-                    "burnout",
-                    "Weariness"
-                ],
-                "Emotional Numbness": [
-                    "numbness",
-                    "detachment",
-                    "insensitivity",
-                    "emotional blunting",
-                    "apathy",
-                    "existential void",
-                    "boredom",
-                    "stoicism",
-                    "indifference"
-                ],
-                "Intoxication/Altered States of Consciousness": [
-                    "being drunk",
-                    "stupor",
-                    "intoxication",
-                    "disorientation",
-                    "altered perception"
-                ],
-                "Jealousy & Envy": [
-                    "jealousy",
-                    "envy",
-                    "covetousness"
-                ]
-            }
+        "labels": {
+            "Amusement": [
+                "lighthearted fun",
+                "amusement",
+                "mirth",
+                "joviality",
+                "laughter",
+                "playfulness",
+                "silliness",
+                "jesting",
+                "delight"
+            ],
+            "Elation": [
+                "happiness",
+                "excitement",
+                "joy",
+                "exhilaration",
+                "laughter",
+                "jubilation",
+                "Cheerfulness"
+            ],
+            "Pleasure/Ecstasy": [
+                "ecstasy",
+                "pleasure",
+                "bliss",
+                "Beatitude"
+            ],
+            "Contentment": [
+                "contentment",
+                "relaxation",
+                "peacefulness",
+                "calmness",
+                "satisfaction",
+                "Ease",
+                "Serenity",
+                "bliss",
+                "fulfillment",
+                "gladness",
+                "lightness",
+                "serenity",
+                "tranquility"
+            ],
+            "Thankfulness/Gratitude": [
+                "thankfulness",
+                "gratitude",
+                "appreciation",
+                "gratefulness"
+            ],
+            "Affection": [
+                "sympathy",
+                "compassion",
+                "warmth",
+                "trust",
+                "caring",
+                "forgiveness",
+                "Devotion",
+                "Tenderness",
+                "Reverence"
+            ],
+            "Infatuation": [
+                "infatuation",
+                "having a crush",
+                "romantic desire",
+                "fondness",
+                "butterflies in the stomach",
+                "adoration"
+            ],
+            "Hope/Enthusiasm/Optimism": [
+                "hope",
+                "enthusiasm",
+                "optimism",
+                "Anticipation",
+                "Courage",
+                "Encouragement",
+                "Zeal",
+                "fervor",
+                "inspiration",
+                "Determination"
+            ],
+            "Triumph": [
+                "triumph",
+                "superiority",
+                "hubris"
+            ],
+            "Pride": [
+                "pride",
+                "dignity",
+                "self-confidently",
+                "honor",
+                "self-consciousness"
+            ],
+            "Interest": [
+                "interest",
+                "fascination",
+                "curiosity",
+                "need for cognition"
+            ],
+            "Awe": [
+                "awe",
+                "awestruck",
+                "wonder"
+            ],
+            "Astonishment/Surprise": [
+                "astonishment",
+                "surprise",
+                "amazement",
+                "shock",
+                "startlement"
+            ],
+            "Concentration": [
+                "concentration",
+                "deep focus",
+                "engrossment",
+                "absorption",
+                "attention"
+            ],
+            "Contemplation": [
+                "contemplation",
+                "thoughtfulness",
+                "pondering",
+                "reflection",
+                "meditation",
+                "Brooding",
+                "Pensiveness"
+            ],
+            "Relief": [
+                "relief",
+                "respite",
+                "alleviation",
+                "solace",
+                "comfort",
+                "liberation"
+            ],
+            "Longing": [
+                "yearning",
+                "longing",
+                "pining",
+                "wistfulness",
+                "nostalgia",
+                "Craving",
+                "desire",
+                "benign envy",
+                "homesickness"
+            ],
+            "Teasing": [
+                "teasing",
+                "bantering",
+                "mocking playfully",
+                "ribbing",
+                "provoking lightly"
+            ],
+            "Impatience and Irritability": [
+                "impatience",
+                "irritability",
+                "irritation",
+                "restlessness",
+                "short-temperedness",
+                "exasperation"
+            ],
+            "Sexual Lust": [
+                "sexual lust",
+                "carnal desire",
+                "lust",
+                "feeling horny",
+                "feeling turned on"
+            ],
+            "Doubt": [
+                "doubt",
+                "distrust",
+                "suspicion",
+                "skepticism",
+                "uncertainty",
+                "Pessimism"
+            ],
+            "Fear": [
+                "fear",
+                "terror",
+                "dread",
+                "apprehension",
+                "alarm",
+                "horror",
+                "panic",
+                "nervousness"
+            ],
+            "Distress": [
+                "worry",
+                "anxiety",
+                "unease",
+                "anguish",
+                "trepidation",
+                "Concern",
+                "Upset",
+                "pessimism",
+                "foreboding"
+            ],
+            "Confusion": [
+                "confusion",
+                "bewilderment",
+                "disorientation",
+                "Perplexity"
+            ],
+            "Embarrassment": [
+                "embarrassment",
+                "shyness",
+                "mortification",
+                "discomfiture",
+                "awkwardness",
+                "Self-Consciousness"
+            ],
+            "Shame": [
+                "shame",
+                "guilt",
+                "remorse",
+                "humiliation",
+                "contrition"
+            ],
+            "Disappointment": [
+                "disappointment",
+                "regret",
+                "dismay",
+                "letdown",
+                "chagrin"
+            ],
+            "Sadness": [
+                "sadness",
+                "sorrow",
+                "grief",
+                "melancholy",
+                "Dejection",
+                "Despair",
+                "Self-Pity",
+                "Sullenness",
+                "heartache",
+                "mournfulness",
+                "misery"
+            ],
+            "Bitterness": [
+                "resentment",
+                "acrimony",
+                "bitterness",
+                "cynicism",
+                "rancor",
+                "malicious envy"
+            ],
+            "Contempt": [
+                "contempt",
+                "disapproval",
+                "scorn",
+                "disdain",
+                "loathing",
+                "Detestation"
+            ],
+            "Disgust": [
+                "disgust",
+                "revulsion",
+                "repulsion",
+                "abhorrence",
+                "loathing"
+            ],
+            "Anger": [
+                "anger",
+                "rage",
+                "fury",
+                "hate",
+                "irascibility",
+                "enragement",
+                "Wrath",
+                "Annoyance"
+            ],
+            "Malevolence/Malice": [
+                "spite",
+                "sadism",
+                "malevolence",
+                "malice",
+                "malicious envy",
+                "revenge",
+                "desire to harm",
+                "schadenfreude"
+            ],
+            "Sourness": [
+                "sourness",
+                "tartness",
+                "acidity",
+                "acerbity",
+                "sharpness"
+            ],
+            "Pain": [
+                "physical pain",
+                "suffering",
+                "torment",
+                "ache",
+                "agony"
+            ],
+            "Helplessness": [
+                "helplessness",
+                "hopelessness",
+                "powerlessness",
+                "desperation",
+                "submission"
+            ],
+            "Fatigue/Exhaustion": [
+                "fatigue",
+                "exhaustion",
+                "weariness",
+                "lethargy",
+                "burnout",
+                "Weariness"
+            ],
+            "Emotional Numbness": [
+                "numbness",
+                "detachment",
+                "insensitivity",
+                "emotional blunting",
+                "apathy",
+                "existential void",
+                "boredom",
+                "stoicism",
+                "indifference"
+            ],
+            "Intoxication/Altered States of Consciousness": [
+                "being drunk",
+                "stupor",
+                "intoxication",
+                "disorientation",
+                "altered perception"
+            ],
+            "Jealousy & Envy": [
+                "jealousy",
+                "envy",
+                "covetousness"
+            ]
         },
         "buttons": {
             "Positive High-Energy Emotions": [
