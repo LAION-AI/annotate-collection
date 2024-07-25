@@ -84,6 +84,7 @@ if __name__ == '__main__':
     update_projects_list('./projects')
     ### list only directorys in os.listdir()
     for p in sorted(os.listdir('./projects')):
-        if os.path.isdir(os.path.join('./projects', p)):
-            print(f'./projects/{p}')
-            update_image_list(f'./projects/{p}', randomize=True)
+        if p.endswith("7") or p.endswith("8"):
+            if os.path.isdir(os.path.join('./projects', p)):
+                print(f'./projects/{p}')
+                update_image_list(f'./projects/{p}', randomize=True)
