@@ -1,372 +1,49 @@
-[
-  {
-    "model": "gemini-2.5-flash-preview-04-17",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 0,
-          "reasoning": "Face is neutral, no smile lines visible, lips are closed in a straight line."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "Lack of visible positive energy, smile, or bright eyes. Expression is subdued."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "Neutral expression provides no indication of pleasure or bliss."
-        },
-        "Contentment": {
-          "rating": 2,
-          "reasoning": "A subtle sense of calm and ease is inferred from the relaxed facial muscles and composed expression."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "No specific visual cues like clasped hands or a particular gaze suggest gratitude."
-        },
-        "Affection": {
-          "rating": 0,
-          "reasoning": "Gaze is direct but lacks specific warmth or softness associated with affection."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "Neutral gaze does not suggest romantic interest or adoration."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 0,
-          "reasoning": "Face lacks forward-looking energy or specific enthusiasm; expression is present-focused."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "No signs of superiority or victory are present in the facial expression."
-        },
-        "Pride": {
-          "rating": 1,
-          "reasoning": "The composed posture and direct gaze, combined with the traditional headdress, might suggest a subtle sense of dignity or self-possession."
-        },
-        "Interest": {
-          "rating": 1,
-          "reasoning": "The direct gaze towards the viewer suggests some level of engagement or interest in the interaction."
-        },
-        "Awe": {
-          "rating": 0,
-          "reasoning": "Neutral expression lacks the wide eyes and dropped jaw often associated with awe."
-        },
-        "Astonishment/Surprise": {
-          "rating": 0,
-          "reasoning": "Features are calm and neutral, no signs of shock or sudden reaction."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "No signs of intense focus, furrowed brow, or mental effort directed at a task."
-        },
-        "Contemplation": {
-          "rating": 2,
-          "reasoning": "The steady, neutral gaze and lack of outward reaction could imply a state of inward thought or reflection."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "No visual cues suggesting release from tension or worry."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "Gaze is present and direct, not wistful or yearning."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "Neutral expression lacks playful or provocative cues like a smirk or wink."
-        },
-        "Impatience and Irritability": {
-          "rating": 0,
-          "reasoning": "Face appears relaxed, no tension suggesting irritation or restlessness."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "Neutral expression lacks cues for sexual desire."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "Expression conveys neutrality and composure, not skepticism or uncertainty."
-        },
-        "Fear": {
-          "rating": 0,
-          "reasoning": "Face is calm, lacks fear indicators like wide eyes or tense mouth."
-        },
-        "Distress": {
-          "rating": 0,
-          "reasoning": "No signs of worry, anxiety, or anguish are visible."
-        },
-        "Confusion": {
-          "rating": 0,
-          "reasoning": "Expression is clear and direct, not bewildered or disoriented."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "Direct gaze and neutral pose lack shyness or awkwardness cues."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "Neutral, direct expression, no signs of guilt or humiliation."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "Features are neutral, not downturned or showing signs of letdown."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "No visible signs of sadness; mouth is straight, not downturned."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "Neutral expression lacks the tight lips or narrowed eyes of bitterness."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "Symmetrical features, no lip corner raise or sneer indicative of contempt."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "Neutral expression lacks revulsion cues like a wrinkled nose or raised upper lip."
-        },
-        "Anger": {
-          "rating": 0,
-          "reasoning": "Face is relaxed, no furrowed brow, tense jaw, or narrowed eyes associated with anger."
-        },
-        "Malevolence/Malice": {
-          "rating": 0,
-          "reasoning": "Neutral expression lacks any hint of spite or ill will."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "Expression is neutral, not tart or acerbic."
-        },
-        "Pain": {
-          "rating": 0,
-          "reasoning": "No grimacing or other physical pain indicators are present."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "Neutral pose doesn't suggest powerlessness or submission."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "Eyes appear alert (or neutral), no clear signs of weariness or low energy."
-        },
-        "Emotional Numbness": {
-          "rating": 1,
-          "reasoning": "The lack of strong expression could be interpreted as slight detachment or indifference, though composure is more prominent."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "Appearance seems normal and standard, no visual cues suggest an altered state."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "Neutral expression lacks comparative or covetous cues."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 2,
-          "reasoning": "Calm, relaxed state. Awake but low energy presentation, typical of a neutral or composed expression."
-        },
-        "Valence": {
-          "rating": 0,
-          "reasoning": "Expression is predominantly neutral, conveying neither strong positive nor negative affect."
-        },
-        "Dominance": {
-          "rating": 0,
-          "reasoning": "Appears balanced and composed, neither particularly assertive/dominant nor submissive in posture or expression."
-        },
-        "Emotional Vulnerability": {
-          "rating": 2,
-          "reasoning": "The composed and neutral expression suggests moderate control and limited emotional openness or susceptibility."
-        }
-      }
-    }
-  },
-  {
-    "model": "gemini-2.0-flash",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 0,
-          "reasoning": "The face is neutral, there are no smile lines or upturned corners of the mouth."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "There is no visible sign of joy or excitement in the facial expression."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "The face is neutral, showing no signs of bliss or rapture."
-        },
-        "Contentment": {
-          "rating": 2,
-          "reasoning": "The face is relaxed and the gaze is steady, suggesting a mild sense of peace and calm."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "There are no visual cues such as a soft smile or gentle eyes that would indicate thankfulness."
-        },
-        "Affection": {
-          "rating": 0,
-          "reasoning": "The face lacks warmth or tenderness, and there is no indication of caring or compassion."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "The gaze is direct but neutral, lacking the soft, dreamy quality associated with infatuation."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, showing no signs of anticipation or courage."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "There is no indication of victory or superiority in the facial expression."
-        },
-        "Pride": {
-          "rating": 3,
-          "reasoning": "The straight posture and direct gaze suggest a sense of dignity and self-confidence."
-        },
-        "Interest": {
-          "rating": 4,
-          "reasoning": "The eyes are focused and attentive, suggesting a level of curiosity or fascination."
-        },
-        "Awe": {
-          "rating": 0,
-          "reasoning": "The face is composed, lacking the wide-eyed wonder associated with awe."
-        },
-        "Astonishment/Surprise": {
-          "rating": 0,
-          "reasoning": "The facial muscles are relaxed, showing no signs of shock or startlement."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "While attentive, the expression doesn't show the furrowed brow or intense focus of deep concentration."
-        },
-        "Contemplation": {
-          "rating": 1,
-          "reasoning": "The steady gaze and slightly furrowed brow suggest a degree of thoughtfulness or pondering."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "There are no signs of released tension or worry in the facial expression."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "The gaze is direct and present, lacking the wistful quality associated with longing."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "The face is neutral, showing no signs of playfulness or mockery."
-        },
-        "Impatience and Irritability": {
-          "rating": 0,
-          "reasoning": "The facial muscles are relaxed, showing no signs of tension or exasperation."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "The gaze is direct but neutral, lacking the intensity or desire associated with sexual lust."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "The expression is steady and composed, showing no signs of uncertainty or skepticism."
-        },
-        "Fear": {
-          "rating": 0,
-          "reasoning": "The face is calm, lacking the wide eyes or tense mouth associated with fear."
-        },
-        "Distress": {
-          "rating": 0,
-          "reasoning": "The face is neutral, showing no signs of worry or anxiety."
-        },
-        "Confusion": {
-          "rating": 0,
-          "reasoning": "The gaze is clear and direct, showing no signs of bewilderment or disorientation."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "The posture is upright and the gaze is direct, lacking the shyness or averted gaze associated with embarrassment."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "The face is neutral, showing no signs of guilt or remorse."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "The mouth is neither upturned nor downturned, showing no signs of regret or dismay."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "The corners of the mouth are not downturned, and there are no signs of sorrow or grief."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "The face is composed, lacking the tight lips or narrowed eyes associated with bitterness."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, lacking the sneer or disdain associated with contempt."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "The face is relaxed, showing no signs of revulsion or abhorrence."
-        },
-        "Anger": {
-          "rating": 0,
-          "reasoning": "The brow is relaxed and the jaw is not clenched, showing no signs of rage or fury."
-        },
-        "Malevolence/Malice": {
-          "rating": 0,
-          "reasoning": "The face is neutral, showing no signs of spite or sadism."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, lacking the acerbic attitude associated with sourness."
-        },
-        "Pain": {
-          "rating": 0,
-          "reasoning": "The face is relaxed, showing no signs of physical pain or suffering."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "The posture is upright and the gaze is direct, showing no signs of powerlessness or desperation."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "The eyes are clear and the posture is upright, showing no signs of weariness or lethargy."
-        },
-        "Emotional Numbness": {
-          "rating": 0,
-          "reasoning": "The expression is attentive, showing no signs of detachment or apathy."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "The gaze is clear and the expression is composed, showing no signs of disorientation or altered perception."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, lacking the narrowed eyes or sideways glances associated with jealousy."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 3,
-          "reasoning": "The person appears to be in a slightly activated state, with a neutral baseline awareness."
-        },
-        "Valence": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, conveying neither positive nor negative affect."
-        },
-        "Dominance": {
-          "rating": 0,
-          "reasoning": "The person appears neither particularly dominant nor submissive, maintaining a balanced presence."
-        },
-        "Emotional Vulnerability": {
-          "rating": 2,
-          "reasoning": "The controlled expression suggests a moderately guarded emotional state, keeping composure."
-        }
-      }
-    }
+{
+  "key": [
+    "stance-detection-part-5",
+    "gemini-2.5-flash",
+    "juggernaut-xl-v8-prompt-5-48_result.png"
+  ],
+  "value": {
+    "Positive High-Energy Emotions|Amusement": 0,
+    "Positive High-Energy Emotions|Elation": 0,
+    "Positive High-Energy Emotions|Pleasure/Ecstasy": 0,
+    "Positive Low-Energy Emotions|Contentment": 2,
+    "Positive Low-Energy Emotions|Thankfulness/Gratitude": 0,
+    "Positive Low-Energy Emotions|Affection": 0,
+    "Longing & Lust|Infatuation": 0,
+    "Positive High-Energy Emotions|Hope/Enthusiasm/Optimism": 0,
+    "Positive High-Energy Emotions|Triumph": 0,
+    "Positive Low-Energy Emotions|Pride": 1,
+    "Positive High-Energy Emotions|Interest": 1,
+    "Positive High-Energy Emotions|Awe": 0,
+    "Positive High-Energy Emotions|Astonishment/Surprise": 0,
+    "Cognitive States and Processes|Concentration": 0,
+    "Positive Low-Energy Emotions|Contemplation": 2,
+    "Positive Low-Energy Emotions|Relief": 0,
+    "Longing & Lust|Longing": 0,
+    "Positive High-Energy Emotions|Teasing": 0,
+    "Negative High-Energy Emotions|Impatience and Irritability": 0,
+    "Longing & Lust|Sexual Lust": 0,
+    "Negative Low-Energy Emotions|Doubt": 0,
+    "Negative High-Energy Emotions|Fear": 0,
+    "Negative High-Energy Emotions|Distress": 0,
+    "Cognitive States and Processes|Confusion": 0,
+    "Negative Low-Energy Emotions|Embarrassment": 0,
+    "Negative Low-Energy Emotions|Shame": 0,
+    "Negative Low-Energy Emotions|Disappointment": 0,
+    "Negative Low-Energy Emotions|Sadness": 0,
+    "Negative Low-Energy Emotions|Bitterness": 0,
+    "Negative Low-Energy Emotions|Contempt": 0,
+    "Negative High-Energy Emotions|Disgust": 0,
+    "Negative High-Energy Emotions|Anger": 0,
+    "Negative High-Energy Emotions|Malevolence/Malice": 0,
+    "Physical and Exhaustive States|Sourness": 0,
+    "Physical and Exhaustive States|Pain": 0,
+    "Negative Low-Energy Emotions|Helplessness": 0,
+    "Physical and Exhaustive States|Fatigue/Exhaustion": 0,
+    "Negative Low-Energy Emotions|Emotional Numbness": 1,
+    "Physical and Exhaustive States|Intoxication/Altered States of Consciousness": 0,
+    "Negative Low-Energy Emotions|Jealousy & Envy": 0
   }
-]
+}

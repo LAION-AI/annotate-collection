@@ -1,372 +1,49 @@
-[
-  {
-    "model": "gemini-2.5-flash-preview-04-17",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 0,
-          "reasoning": "Face shows extreme negative tension, not mirth or laughter. Mouth is open in a scream/shout, not a smile."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "Expression is intensely negative, lacking any signs of joy or excitement. Facial muscles are tense, not relaxed in happiness."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "No visual cues of pleasure or bliss; the expression is one of suffering or intense negative reaction."
-        },
-        "Contentment": {
-          "rating": 0,
-          "reasoning": "Face is highly tense and activated, the opposite of relaxation, calmness, or satisfaction."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "Expression is focused on internal or external negative stimulus, not gratitude towards another."
-        },
-        "Affection": {
-          "rating": 0,
-          "reasoning": "Expression lacks warmth, softness, or connection cues associated with affection or caring."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "Expression is one of intense negative emotion, not romantic desire or fondness."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 0,
-          "reasoning": "Face conveys despair or intense negative reaction, not forward-looking hope or enthusiasm."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "No signs of victory, superiority, or confidence; expression is one of struggle or reaction."
-        },
-        "Pride": {
-          "rating": 0,
-          "reasoning": "Expression is one of distress or pain, not dignity or self-confidence."
-        },
-        "Interest": {
-          "rating": 0,
-          "reasoning": "While the eyes are wide and focused, the overall expression is reactive negative emotion, not curiosity or fascination."
-        },
-        "Awe": {
-          "rating": 0,
-          "reasoning": "While eyes are wide, the furrowed brow and open mouth suggest fear, pain, or anger rather than wonder or amazement."
-        },
-        "Astonishment/Surprise": {
-          "rating": 5,
-          "reasoning": "Wide eyes and open mouth are strong indicators of surprise or shock, likely combined with negative affect given other cues."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "While there is tension, the open mouth and wide eyes are inconsistent with typical deep focus or absorption."
-        },
-        "Contemplation": {
-          "rating": 0,
-          "reasoning": "Expression is highly active and reactive, not withdrawn or reflective."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "Face shows extreme tension and activation, the opposite of release from worry or pain."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "Expression is immediate and reactive, not wistful or yearning."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "Expression is intensely negative and serious, lacking any playful or bantering cues."
-        },
-        "Impatience and Irritability": {
-          "rating": 0,
-          "reasoning": "The intensity of the expression goes far beyond mere impatience or irritability."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "Expression is one of pain, fear, or distress, lacking any cues for sexual desire."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "Expression conveys certainty of intense negative feeling, not skepticism or uncertainty."
-        },
-        "Fear": {
-          "rating": 7,
-          "reasoning": "Wide eyes, tense facial muscles, and open mouth strongly indicate intense fear, terror, or alarm."
-        },
-        "Distress": {
-          "rating": 7,
-          "reasoning": "Furrowed brow, tense face, and open mouth suggest extreme worry, anxiety, anguish, or concern."
-        },
-        "Confusion": {
-          "rating": 0,
-          "reasoning": "While intense, the expression appears focused on a clear negative stimulus or internal state, not bewilderment."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "Expression is open and outward, not withdrawn or shy as in embarrassment."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "Expression is outward and reactive, lacking the downcast gaze or slumped posture often associated with shame."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "The intensity and activation level are much higher than typical disappointment; features are tense, not merely downturned."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "While negative, the expression is highly activated and tense, not the low energy state typical of sadness or melancholy."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "Expression is raw and reactive, not the tight-lipped or cynical look of bitterness."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "No unilateral lip corner raise or sneer indicative of contempt is visible."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "No visible nose wrinkle or upper lip raise characteristic of disgust."
-        },
-        "Anger": {
-          "rating": 5,
-          "reasoning": "Furrowed brow, tense face, and open mouth could indicate intense anger or rage (shouting), though fear/pain seem more dominant."
-        },
-        "Malevolence/Malice": {
-          "rating": 0,
-          "reasoning": "Expression is one of suffering or reaction, not ill will towards others."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "Expression is intensely emotional and reactive, not acerbic or tart."
-        },
-        "Pain": {
-          "rating": 6,
-          "reasoning": "Grimacing, tense facial muscles, and open mouth strongly suggest physical or emotional suffering."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "While the reaction is intense, the expression is active (screaming/reacting) rather than passive submission or powerlessness."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "Face is highly activated and tense, the opposite of weariness or lethargy."
-        },
-        "Emotional Numbness": {
-          "rating": 0,
-          "reasoning": "Expression is one of extreme emotional activation and display, not detachment or apathy."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "Expression appears like a clear, intense emotional reaction, not typical signs of intoxication or disorientation."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "No cues related to social comparison or covetousness; expression is focused on internal state or immediate stimulus."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 7,
-          "reasoning": "Extremely high physiological and psychological activation indicated by wide eyes, open mouth, and intense facial tension."
-        },
-        "Valence": {
-          "rating": -3,
-          "reasoning": "The combination of fear, distress, pain, and potential anger/shock indicates an extremely negative emotional state."
-        },
-        "Dominance": {
-          "rating": -2,
-          "reasoning": "The expression of intense fear, pain, or distress suggests being overwhelmed or reacting to a situation beyond control, indicating strong submissiveness in the moment."
-        },
-        "Emotional Vulnerability": {
-          "rating": 5,
-          "reasoning": "The raw, intense, and open display of negative emotion indicates a state of extreme emotional exposure and lack of guardedness."
-        }
-      }
-    }
-  },
-  {
-    "model": "gemini-2.0-flash",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 0,
-          "reasoning": "The facial expression shows intense negative emotion, not amusement. The mouth is open in a yell, not a smile."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "The furrowed brow and open mouth in a yell indicate distress, not elation. There is no sign of joy or excitement."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "The facial expression is contorted with negative emotion, not pleasure. There is no visible relaxation or bliss."
-        },
-        "Contentment": {
-          "rating": 0,
-          "reasoning": "The tense facial muscles and wide open mouth indicate distress, not contentment. There is no sign of calmness or satisfaction."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting thankfulness or gratitude. The expression is one of distress."
-        },
-        "Affection": {
-          "rating": 0,
-          "reasoning": "The facial expression is intense and negative, lacking any warmth or tenderness. There is no sign of caring or compassion."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "The expression is not indicative of romantic desire or fondness. The face is contorted with negative emotion."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 0,
-          "reasoning": "The distressed expression suggests a lack of hope or optimism. The face is tense and strained."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "The expression is not one of victory or superiority. The face shows distress and anger."
-        },
-        "Pride": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of pride or dignity. The face is contorted with negative emotion."
-        },
-        "Interest": {
-          "rating": 0,
-          "reasoning": "While the eyes are wide, the overall expression is dominated by negative emotion, not curiosity or fascination. The focus is on distress."
-        },
-        "Awe": {
-          "rating": 0,
-          "reasoning": "The facial expression is not one of awe or wonder. The face is contorted with negative emotion."
-        },
-        "Astonishment/Surprise": {
-          "rating": 0,
-          "reasoning": "While the mouth is open, the overall expression is more indicative of anger or distress than surprise. The brow is furrowed, not raised."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "The facial expression is dominated by negative emotion, not concentration. The face is tense and strained."
-        },
-        "Contemplation": {
-          "rating": 0,
-          "reasoning": "The facial expression is not one of thoughtfulness or reflection. The face is contorted with negative emotion."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "The facial expression is tense and distressed, not relaxed or relieved. There is no sign of respite or comfort."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of longing or yearning. The face is contorted with negative emotion."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "The facial expression is not playful or teasing. The face is contorted with negative emotion."
-        },
-        "Impatience and Irritability": {
-          "rating": 3,
-          "reasoning": "The furrowed brow and tense facial muscles suggest impatience and irritability. The expression is strained and agitated."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of sexual desire. The face is contorted with negative emotion."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of doubt or uncertainty. The face is contorted with negative emotion."
-        },
-        "Fear": {
-          "rating": 2,
-          "reasoning": "The wide eyes and open mouth can suggest fear, although anger is more dominant. The expression is startled and alarmed."
-        },
-        "Distress": {
-          "rating": 6,
-          "reasoning": "The furrowed brow, tense facial muscles, and open mouth in a yell clearly indicate distress. The expression is anguished and worried."
-        },
-        "Confusion": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of confusion or bewilderment. The face is contorted with negative emotion."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of embarrassment or shyness. The face is contorted with negative emotion."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of shame or guilt. The face is contorted with negative emotion."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of disappointment. The face is contorted with negative emotion."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "While negative, the expression is more active and angry than passively sad. The mouth is open in a yell, not downturned."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of bitterness or resentment. The face is contorted with negative emotion."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "The facial expression does not show the asymmetrical lip raise associated with contempt. The expression is more generalized anger."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "The facial expression does not show the nose wrinkle or upper lip raise associated with disgust. The expression is more generalized anger."
-        },
-        "Anger": {
-          "rating": 7,
-          "reasoning": "The furrowed brow, tense facial muscles, wide eyes, and open mouth in a yell strongly indicate anger. The expression is furious and enraged."
-        },
-        "Malevolence/Malice": {
-          "rating": 1,
-          "reasoning": "The intense anger *could* imply a desire to cause harm, but it's not definitively visible. The expression is primarily anger, not necessarily spite."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of sourness or an acerbic attitude. The face is contorted with negative emotion."
-        },
-        "Pain": {
-          "rating": 0,
-          "reasoning": "While the expression is intense, there are no specific cues indicating physical pain. The expression is more emotional distress."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of helplessness or powerlessness. The face is contorted with negative emotion."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "The facial expression is intense and energetic, not fatigued or exhausted. The face is tense and strained."
-        },
-        "Emotional Numbness": {
-          "rating": 0,
-          "reasoning": "The facial expression is highly emotional, not numb or detached. The face is contorted with negative emotion."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "The facial expression appears to be a clear and intense emotional response, not an altered state. The face is contorted with negative emotion."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "The facial expression is not indicative of jealousy or envy. The face is contorted with negative emotion."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 7,
-          "reasoning": "The wide eyes, open mouth, and tense facial muscles indicate extremely high arousal. The person is in a state of peak activation."
-        },
-        "Valence": {
-          "rating": -3,
-          "reasoning": "The furrowed brow, tense facial muscles, and open mouth in a yell clearly indicate extremely negative valence. The person is experiencing intense distress and anger."
-        },
-        "Dominance": {
-          "rating": 2,
-          "reasoning": "The intense expression and open mouth in a yell suggest a strong attempt to assert control or express power. The person appears to be in a dominant, albeit negative, emotional state."
-        },
-        "Emotional Vulnerability": {
-          "rating": 4,
-          "reasoning": "The open mouth and intense expression suggest a high degree of emotional vulnerability. The person appears to be emotionally exposed and raw."
-        }
-      }
-    }
+{
+  "key": [
+    "stance-detection-part-7",
+    "gemini-2.5-flash",
+    "flux_dev_one_0-84_s2466771814.png"
+  ],
+  "value": {
+    "Positive High-Energy Emotions|Amusement": 0,
+    "Positive High-Energy Emotions|Elation": 0,
+    "Positive High-Energy Emotions|Pleasure/Ecstasy": 0,
+    "Positive Low-Energy Emotions|Contentment": 0,
+    "Positive Low-Energy Emotions|Thankfulness/Gratitude": 0,
+    "Positive Low-Energy Emotions|Affection": 0,
+    "Longing & Lust|Infatuation": 0,
+    "Positive High-Energy Emotions|Hope/Enthusiasm/Optimism": 0,
+    "Positive High-Energy Emotions|Triumph": 0,
+    "Positive Low-Energy Emotions|Pride": 0,
+    "Positive High-Energy Emotions|Interest": 0,
+    "Positive High-Energy Emotions|Awe": 0,
+    "Positive High-Energy Emotions|Astonishment/Surprise": 5,
+    "Cognitive States and Processes|Concentration": 0,
+    "Positive Low-Energy Emotions|Contemplation": 0,
+    "Positive Low-Energy Emotions|Relief": 0,
+    "Longing & Lust|Longing": 0,
+    "Positive High-Energy Emotions|Teasing": 0,
+    "Negative High-Energy Emotions|Impatience and Irritability": 0,
+    "Longing & Lust|Sexual Lust": 0,
+    "Negative Low-Energy Emotions|Doubt": 0,
+    "Negative High-Energy Emotions|Fear": 7,
+    "Negative High-Energy Emotions|Distress": 7,
+    "Cognitive States and Processes|Confusion": 0,
+    "Negative Low-Energy Emotions|Embarrassment": 0,
+    "Negative Low-Energy Emotions|Shame": 0,
+    "Negative Low-Energy Emotions|Disappointment": 0,
+    "Negative Low-Energy Emotions|Sadness": 0,
+    "Negative Low-Energy Emotions|Bitterness": 0,
+    "Negative Low-Energy Emotions|Contempt": 0,
+    "Negative High-Energy Emotions|Disgust": 0,
+    "Negative High-Energy Emotions|Anger": 5,
+    "Negative High-Energy Emotions|Malevolence/Malice": 0,
+    "Physical and Exhaustive States|Sourness": 0,
+    "Physical and Exhaustive States|Pain": 6,
+    "Negative Low-Energy Emotions|Helplessness": 0,
+    "Physical and Exhaustive States|Fatigue/Exhaustion": 0,
+    "Negative Low-Energy Emotions|Emotional Numbness": 0,
+    "Physical and Exhaustive States|Intoxication/Altered States of Consciousness": 0,
+    "Negative Low-Energy Emotions|Jealousy & Envy": 0
   }
-]
+}

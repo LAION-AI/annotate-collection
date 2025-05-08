@@ -1,372 +1,49 @@
-[
-  {
-    "model": "gemini-2.5-flash-preview-04-17",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 0,
-          "reasoning": "While there is a subtle upward curve at the mouth corners, it does not form a clear smile or show signs of mirth like crinkled eyes."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "The expression is alert and somewhat positive, but lacks the intensity, broad smile, or activated facial muscles indicative of strong joy or excitement."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "No strong signs of bliss or rapture are visible; the expression is more one of engagement than intense pleasure."
-        },
-        "Contentment": {
-          "rating": 2,
-          "reasoning": "A subtle upward turn at the corners of the mouth suggests a degree of underlying ease or pleasantness, though the eyes are very active, not relaxed."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "No specific visual cues such as clasped hands, bowed head, or particular gaze direction suggest thankfulness."
-        },
-        "Affection": {
-          "rating": 2,
-          "reasoning": "The direct, engaging gaze combined with the subtle positive mouth cue could imply a sense of warmth or connection directed towards the viewer."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "The expression is alert and generally positive, but lacks the specific soft gaze or focused intensity often associated with romantic desire."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 3,
-          "reasoning": "The alert, forward-looking gaze and subtle positive mouth cue suggest a degree of positive anticipation or engaged outlook."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "No visual cues like a raised chin, chest puffed out, or specific smile indicate victory or superiority."
-        },
-        "Pride": {
-          "rating": 0,
-          "reasoning": "The expression is focused and alert, but does not convey the specific visual markers of pride or self-confidence like a lifted chin or firm set of the jaw."
-        },
-        "Interest": {
-          "rating": 6,
-          "reasoning": "The eyes are wide, alert, and directly focused, and the eyebrows are raised, strongly indicating curiosity, fascination, or intrigue in something."
-        },
-        "Awe": {
-          "rating": 0,
-          "reasoning": "While there is surprise/interest, the expression does not reach the level of wonder or amazement typically associated with awe (e.g., dropped jaw, wider eye aperture)."
-        },
-        "Astonishment/Surprise": {
-          "rating": 5,
-          "reasoning": "The raised eyebrows and widened eyes are clear visual markers of surprise or startlement, indicating a reaction to something unexpected."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "The expression is outward-focused and reactive (surprise/interest), not indicative of inward mental effort or deep focus."
-        },
-        "Contemplation": {
-          "rating": 0,
-          "reasoning": "The gaze is direct and alert, not withdrawn or indicative of deep thought or reflection."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "No visual cues suggest a release from tension, worry, or discomfort."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "The gaze is present-focused and alert, not wistful or yearning."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "The expression is one of genuine reaction (interest/surprise) and subtle pleasantness, not playful provocation."
-        },
-        "Impatience and Irritability": {
-          "rating": 0,
-          "reasoning": "The facial features appear engaged and subtly positive, lacking the tension or furrowed brow associated with impatience or irritation."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "The expression is one of general interest and mild positive affect, lacking specific cues for sexual desire."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "The direct, alert gaze and raised eyebrows suggest engagement and reaction, not skepticism or uncertainty."
-        },
-        "Fear": {
-          "rating": 0,
-          "reasoning": "While wide eyes can be a fear cue, the overall expression with raised eyebrows and subtle smile does not convey dread or terror; it's more aligned with surprise/interest."
-        },
-        "Distress": {
-          "rating": 0,
-          "reasoning": "No visual signs of worry, anxiety, or anguish are present; the expression is alert and somewhat positive."
-        },
-        "Confusion": {
-          "rating": 0,
-          "reasoning": "The expression is clear and focused on something external, not indicative of bewilderment or disorientation."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "The gaze is direct and the expression open, contrary to the averted gaze or shrinking often seen in embarrassment."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "The posture (if visible) and facial expression do not suggest guilt, remorse, or humiliation."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "The mouth corners show a subtle upward turn, opposite of the downturned shape associated with disappointment."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "The facial features are lifted and engaged, not downturned or subdued as in sadness."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "The subtle positive mouth cue and open eyes lack the tension or narrowed look associated with bitterness."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "The expression is symmetrical and lacks the unilateral lip corner raise or sneer of contempt."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "No visual cues like a wrinkled nose or raised upper lip indicate revulsion."
-        },
-        "Anger": {
-          "rating": 0,
-          "reasoning": "The brow is raised, not furrowed, and the mouth shows a subtle positive cue, opposite of anger indicators."
-        },
-        "Malevolence/Malice": {
-          "rating": 0,
-          "reasoning": "The expression is one of open interest and subtle pleasantness, not ill will or spite."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "The subtle positive mouth cue contradicts the visual signs of sourness or an acerbic attitude."
-        },
-        "Pain": {
-          "rating": 0,
-          "reasoning": "No grimacing, clenching, or other visual indicators of physical pain are present."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "The direct gaze and alert expression suggest engagement and agency, not powerlessness."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "The eyes are wide open and alert, contrary to the drooping eyelids or low energy look of fatigue."
-        },
-        "Emotional Numbness": {
-          "rating": 0,
-          "reasoning": "The expression is clearly reactive and engaged, showing visible signs of emotion (interest, surprise, mild positive affect), not detachment or apathy."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "The expression appears clear, focused, and situationally appropriate, with no obvious signs of an altered state."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "No visual cues related to social comparison, covetousness, or resentment are present."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 5,
-          "reasoning": "The wide, alert eyes and raised eyebrows indicate a state of clear physiological and psychological activation, consistent with surprise and high interest."
-        },
-        "Valence": {
-          "rating": 1,
-          "reasoning": "The subtle upward curve at the mouth corners suggests a mildly positive emotional tone, leaning away from pure neutrality or negativity."
-        },
-        "Dominance": {
-          "rating": 0,
-          "reasoning": "The direct gaze suggests presence, but the expression of surprise/interest doesn't strongly convey control or assertiveness, nor does it appear submissive."
-        },
-        "Emotional Vulnerability": {
-          "rating": 4,
-          "reasoning": "The open, reactive expression of surprise and interest, combined with the direct gaze, suggests a clear state of emotional openness and lack of guardedness in the moment."
-        }
-      }
-    }
-  },
-  {
-    "model": "gemini-2.0-flash",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 2,
-          "reasoning": "A slight upturn at the corners of the mouth suggests a mild sense of amusement."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "There is no broad smile or other indication of intense joy or excitement."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any sense of intense pleasure or bliss."
-        },
-        "Contentment": {
-          "rating": 3,
-          "reasoning": "The relaxed facial muscles and soft gaze suggest a sense of peace and satisfaction."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "There are no specific visual cues indicating thankfulness or appreciation."
-        },
-        "Affection": {
-          "rating": 1,
-          "reasoning": "The soft gaze and slight smile could suggest a hint of warmth or caring."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any romantic desire or adoration."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting hope, enthusiasm, or optimism."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any sense of victory or superiority."
-        },
-        "Pride": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting pride or self-confidence."
-        },
-        "Interest": {
-          "rating": 0,
-          "reasoning": "The gaze is direct, but does not necessarily indicate strong curiosity or fascination."
-        },
-        "Awe": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any sense of wonder or amazement."
-        },
-        "Astonishment/Surprise": {
-          "rating": 0,
-          "reasoning": "The facial features are relaxed, not indicative of shock or surprise."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting deep focus or absorption."
-        },
-        "Contemplation": {
-          "rating": 0,
-          "reasoning": "The gaze is soft, but not necessarily indicative of deep thought or reflection."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting release from tension or worry."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any sense of yearning or wistfulness."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "The expression is gentle, not playful or provocative."
-        },
-        "Impatience and Irritability": {
-          "rating": 0,
-          "reasoning": "The facial muscles are relaxed, not tense or suggestive of irritation."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any sexual desire."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, not suggestive of skepticism or uncertainty."
-        },
-        "Fear": {
-          "rating": 0,
-          "reasoning": "There are no visual cues indicating fear or apprehension."
-        },
-        "Distress": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any worry, anxiety, or unease."
-        },
-        "Confusion": {
-          "rating": 0,
-          "reasoning": "The expression is clear, not suggestive of bewilderment or disorientation."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, not suggestive of shyness or awkwardness."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting shame, guilt, or remorse."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, not suggestive of regret or dismay."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "There is no downturned mouth or other indication of sadness."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "The expression is gentle, not suggestive of resentment or cynicism."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "There is no sneer or other indication of contempt."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting disgust or revulsion."
-        },
-        "Anger": {
-          "rating": 0,
-          "reasoning": "The facial muscles are relaxed, not tense or suggestive of anger."
-        },
-        "Malevolence/Malice": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting spite or ill will."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "The expression is gentle, not acerbic or tart."
-        },
-        "Pain": {
-          "rating": 0,
-          "reasoning": "There are no visual cues suggesting physical pain or suffering."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "The expression does not convey any sense of powerlessness or desperation."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "The eyes are open and alert, not suggestive of fatigue or exhaustion."
-        },
-        "Emotional Numbness": {
-          "rating": 0,
-          "reasoning": "The expression is subtle, but not indicative of detachment or apathy."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "The appearance seems normal and clear."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "There are no visual cues related to social comparison or covetousness."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 2,
-          "reasoning": "The relaxed facial muscles and soft gaze suggest a calm and low-energy state."
-        },
-        "Valence": {
-          "rating": 1,
-          "reasoning": "The slight upturn at the corners of the mouth suggests a mildly positive affect."
-        },
-        "Dominance": {
-          "rating": 0,
-          "reasoning": "The expression is neutral, not particularly assertive or submissive."
-        },
-        "Emotional Vulnerability": {
-          "rating": 3,
-          "reasoning": "The soft gaze and slight smile suggest a moderate level of emotional openness."
-        }
-      }
-    }
+{
+  "key": [
+    "stance-detection-part-2",
+    "gemini-2.5-flash",
+    "mj_data_187_U1.png"
+  ],
+  "value": {
+    "Positive High-Energy Emotions|Amusement": 0,
+    "Positive High-Energy Emotions|Elation": 0,
+    "Positive High-Energy Emotions|Pleasure/Ecstasy": 0,
+    "Positive Low-Energy Emotions|Contentment": 2,
+    "Positive Low-Energy Emotions|Thankfulness/Gratitude": 0,
+    "Positive Low-Energy Emotions|Affection": 2,
+    "Longing & Lust|Infatuation": 0,
+    "Positive High-Energy Emotions|Hope/Enthusiasm/Optimism": 3,
+    "Positive High-Energy Emotions|Triumph": 0,
+    "Positive Low-Energy Emotions|Pride": 0,
+    "Positive High-Energy Emotions|Interest": 6,
+    "Positive High-Energy Emotions|Awe": 0,
+    "Positive High-Energy Emotions|Astonishment/Surprise": 5,
+    "Cognitive States and Processes|Concentration": 0,
+    "Positive Low-Energy Emotions|Contemplation": 0,
+    "Positive Low-Energy Emotions|Relief": 0,
+    "Longing & Lust|Longing": 0,
+    "Positive High-Energy Emotions|Teasing": 0,
+    "Negative High-Energy Emotions|Impatience and Irritability": 0,
+    "Longing & Lust|Sexual Lust": 0,
+    "Negative Low-Energy Emotions|Doubt": 0,
+    "Negative High-Energy Emotions|Fear": 0,
+    "Negative High-Energy Emotions|Distress": 0,
+    "Cognitive States and Processes|Confusion": 0,
+    "Negative Low-Energy Emotions|Embarrassment": 0,
+    "Negative Low-Energy Emotions|Shame": 0,
+    "Negative Low-Energy Emotions|Disappointment": 0,
+    "Negative Low-Energy Emotions|Sadness": 0,
+    "Negative Low-Energy Emotions|Bitterness": 0,
+    "Negative Low-Energy Emotions|Contempt": 0,
+    "Negative High-Energy Emotions|Disgust": 0,
+    "Negative High-Energy Emotions|Anger": 0,
+    "Negative High-Energy Emotions|Malevolence/Malice": 0,
+    "Physical and Exhaustive States|Sourness": 0,
+    "Physical and Exhaustive States|Pain": 0,
+    "Negative Low-Energy Emotions|Helplessness": 0,
+    "Physical and Exhaustive States|Fatigue/Exhaustion": 0,
+    "Negative Low-Energy Emotions|Emotional Numbness": 0,
+    "Physical and Exhaustive States|Intoxication/Altered States of Consciousness": 0,
+    "Negative Low-Energy Emotions|Jealousy & Envy": 0
   }
-]
+}

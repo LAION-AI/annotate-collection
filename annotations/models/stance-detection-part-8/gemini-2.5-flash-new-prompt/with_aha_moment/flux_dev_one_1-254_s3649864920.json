@@ -1,372 +1,49 @@
-[
-  {
-    "model": "gemini-2.5-flash-preview-04-17",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 0,
-          "reasoning": "Face shows surprise/shock, not mirth or laughter. Mouth is open, but not in a smile."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "Expression is one of reaction to the unexpected, not joy or excitement. Features are tense, not relaxed in happiness."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "No signs of bliss or rapture; the expression is startled and tense."
-        },
-        "Contentment": {
-          "rating": 0,
-          "reasoning": "Face is highly activated and tense, the opposite of relaxation or calmness."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "Expression is reactive surprise, not indicative of gratitude."
-        },
-        "Affection": {
-          "rating": 0,
-          "reasoning": "Expression lacks warmth, softness, or gaze directed with affection."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "Expression is shock, not romantic interest or fondness."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 0,
-          "reasoning": "Expression is reactive to the present, not forward-looking hope or enthusiasm."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "No signs of victory or superiority are present in the startled expression."
-        },
-        "Pride": {
-          "rating": 0,
-          "reasoning": "Expression lacks the confident posture or gaze associated with pride."
-        },
-        "Interest": {
-          "rating": 4,
-          "reasoning": "The wide eyes and upward gaze indicate strong attention and curiosity towards something unexpected."
-        },
-        "Awe": {
-          "rating": 2,
-          "reasoning": "The wide eyes and open mouth could suggest a sense of wonder or amazement if the surprise is related to something grand, though pure surprise is more evident."
-        },
-        "Astonishment/Surprise": {
-          "rating": 7,
-          "reasoning": "Classic markers of strong surprise: Eyes wide open, eyebrows significantly raised creating forehead wrinkles, and mouth open in an 'O' shape."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "Expression is reactive and open, not the focused, often narrowed gaze of concentration."
-        },
-        "Contemplation": {
-          "rating": 0,
-          "reasoning": "Expression is one of immediate reaction, not inward thought or reflection."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "No signs of tension release or alleviation of worry are visible."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "Gaze is directed upwards in reaction, not wistful or yearning."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "Expression is startled and serious, not playful or provocative."
-        },
-        "Impatience and Irritability": {
-          "rating": 0,
-          "reasoning": "Face shows shock, not the tension or scowl associated with irritation."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "Expression is one of general shock, lacking specific cues for sexual desire."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "Expression is reactive shock, not skepticism or uncertainty about a fact."
-        },
-        "Fear": {
-          "rating": 1,
-          "reasoning": "A mild startle response, which contains elements of fear, is a common component of strong surprise, reflected in the wide eyes."
-        },
-        "Distress": {
-          "rating": 0,
-          "reasoning": "While startling, the expression doesn't primarily convey worry, anxiety, or anguish beyond the initial shock."
-        },
-        "Confusion": {
-          "rating": 1,
-          "reasoning": "The upward gaze and open mouth could suggest momentary confusion while processing the unexpected event, but surprise is dominant."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "Expression is open and reactive, not the averted gaze or blushing associated with embarrassment."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "No cues of guilt or humiliation are present in the startled expression."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "Features are lifted and open, opposite of the downturned cues for disappointment."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "Facial features are activated upwards (eyebrows) and open (mouth, eyes), opposite of sadness cues."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "Expression is open and reactive, lacking the tight lips or narrowed eyes of bitterness."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "Symmetrical features, no lip corner raise or sneer indicative of contempt."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "No signs of revulsion like a wrinkled nose or raised upper lip."
-        },
-        "Anger": {
-          "rating": 0,
-          "reasoning": "Brow is raised, not furrowed downwards as in anger. Mouth is open in shock, not a tense snarl."
-        },
-        "Malevolence/Malice": {
-          "rating": 0,
-          "reasoning": "Expression is one of reaction, not ill will or spite."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "Facial expression is open and reactive, not acerbic or tart."
-        },
-        "Pain": {
-          "rating": 0,
-          "reasoning": "No grimacing or other visual cues suggesting physical discomfort."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "While momentarily startled, the expression doesn't convey sustained powerlessness or submission."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "Eyes are wide and alert, contrary to signs of weariness."
-        },
-        "Emotional Numbness": {
-          "rating": 0,
-          "reasoning": "Highly expressive and reactive, the opposite of numbness or detachment."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "Expression appears a clear, situationally appropriate reaction, not indicative of an altered state."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "No cues related to social comparison or covetousness are present."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 6,
-          "reasoning": "High physiological arousal indicated by the strong, sudden reaction: wide eyes, raised brows, open mouth, and activated state."
-        },
-        "Valence": {
-          "rating": 0,
-          "reasoning": "Surprise itself is typically neutral in valence; the expression alone doesn't strongly indicate if the cause is positive or negative."
-        },
-        "Dominance": {
-          "rating": -1,
-          "reasoning": "Being strongly surprised often implies momentarily losing control or composure, suggesting a brief shift towards mild submissiveness to the unexpected event."
-        },
-        "Emotional Vulnerability": {
-          "rating": 4,
-          "reasoning": "The unguarded, reactive expression of strong surprise shows a clear level of emotional openness and lack of guardedness in the moment."
-        }
-      }
-    }
-  },
-  {
-    "model": "gemini-2.0-flash",
-    "predictions": {
-      "emotions": {
-        "Amusement": {
-          "rating": 0,
-          "reasoning": "The expression lacks any signs of laughter or mirth; mouth is open in shock, not a smile."
-        },
-        "Elation": {
-          "rating": 0,
-          "reasoning": "The expression is one of surprise, not joy or excitement."
-        },
-        "Pleasure/Ecstasy": {
-          "rating": 0,
-          "reasoning": "The open mouth and wide eyes suggest shock, not pleasure."
-        },
-        "Contentment": {
-          "rating": 0,
-          "reasoning": "The face is tense with surprise, not relaxed or content."
-        },
-        "Thankfulness/Gratitude": {
-          "rating": 0,
-          "reasoning": "There are no visual cues to suggest gratitude."
-        },
-        "Affection": {
-          "rating": 0,
-          "reasoning": "The expression lacks any warmth or tenderness."
-        },
-        "Infatuation": {
-          "rating": 0,
-          "reasoning": "The expression is surprise, not romantic interest."
-        },
-        "Hope/Enthusiasm/Optimism": {
-          "rating": 0,
-          "reasoning": "The expression is reactive surprise, not forward-looking hope."
-        },
-        "Triumph": {
-          "rating": 0,
-          "reasoning": "There are no signs of victory or superiority."
-        },
-        "Pride": {
-          "rating": 0,
-          "reasoning": "The expression lacks any sense of pride or dignity."
-        },
-        "Interest": {
-          "rating": 3,
-          "reasoning": "The wide eyes suggest a sudden and strong interest in something."
-        },
-        "Awe": {
-          "rating": 2,
-          "reasoning": "The wide eyes and open mouth could indicate a degree of awe, depending on the context of the surprise."
-        },
-        "Astonishment/Surprise": {
-          "rating": 7,
-          "reasoning": "The eyes are wide open, the eyebrows are raised, and the mouth is open, all classic signs of strong surprise."
-        },
-        "Concentration": {
-          "rating": 0,
-          "reasoning": "The expression is reactive, not focused or concentrating."
-        },
-        "Contemplation": {
-          "rating": 0,
-          "reasoning": "The expression is shock, not thoughtful pondering."
-        },
-        "Relief": {
-          "rating": 0,
-          "reasoning": "There are no visual cues to suggest relief."
-        },
-        "Longing": {
-          "rating": 0,
-          "reasoning": "The expression is surprise, not wistful yearning."
-        },
-        "Teasing": {
-          "rating": 0,
-          "reasoning": "The expression is shock, not playful teasing."
-        },
-        "Impatience and Irritability": {
-          "rating": 0,
-          "reasoning": "The expression is surprise, not impatience or irritation."
-        },
-        "Sexual Lust": {
-          "rating": 0,
-          "reasoning": "The expression lacks any cues related to sexual desire."
-        },
-        "Doubt": {
-          "rating": 0,
-          "reasoning": "The expression is surprise, not skepticism or uncertainty."
-        },
-        "Fear": {
-          "rating": 1,
-          "reasoning": "The wide eyes could suggest a brief startle or mild fear response, depending on the nature of the surprise."
-        },
-        "Distress": {
-          "rating": 0,
-          "reasoning": "While startled, there are no clear signs of worry or anguish."
-        },
-        "Confusion": {
-          "rating": 1,
-          "reasoning": "The surprise could lead to momentary confusion as the person tries to process the unexpected event."
-        },
-        "Embarrassment": {
-          "rating": 0,
-          "reasoning": "The expression is shock, not shyness or awkwardness."
-        },
-        "Shame": {
-          "rating": 0,
-          "reasoning": "There are no visual cues to suggest shame or guilt."
-        },
-        "Disappointment": {
-          "rating": 0,
-          "reasoning": "The features are lifted, not downturned in disappointment."
-        },
-        "Sadness": {
-          "rating": 0,
-          "reasoning": "The facial features are activated, not downturned or indicative of sadness."
-        },
-        "Bitterness": {
-          "rating": 0,
-          "reasoning": "There are no visual cues to suggest resentment."
-        },
-        "Contempt": {
-          "rating": 0,
-          "reasoning": "There is no sneer or disdain visible."
-        },
-        "Disgust": {
-          "rating": 0,
-          "reasoning": "There are no signs of revulsion."
-        },
-        "Anger": {
-          "rating": 0,
-          "reasoning": "The expression lacks hostility cues; features suggest shock."
-        },
-        "Malevolence/Malice": {
-          "rating": 0,
-          "reasoning": "There are no visual cues to suggest spite or ill will."
-        },
-        "Sourness": {
-          "rating": 0,
-          "reasoning": "The expression is shock, not acerbic."
-        },
-        "Pain": {
-          "rating": 0,
-          "reasoning": "There are no signs of physical discomfort."
-        },
-        "Helplessness": {
-          "rating": 0,
-          "reasoning": "While potentially losing control momentarily, there are no specific helplessness cues."
-        },
-        "Fatigue/Exhaustion": {
-          "rating": 0,
-          "reasoning": "The eyes are wide and alert, not tired."
-        },
-        "Emotional Numbness": {
-          "rating": 0,
-          "reasoning": "The expression is highly reactive, not numb."
-        },
-        "Intoxication/Altered States of Consciousness": {
-          "rating": 0,
-          "reasoning": "The appearance seems normal and appropriate for a surprising event."
-        },
-        "Jealousy & Envy": {
-          "rating": 0,
-          "reasoning": "There are no social comparison cues."
-        }
-      },
-      "extra_dimensions": {
-        "Arousal": {
-          "rating": 6,
-          "reasoning": "The wide eyes and open mouth indicate a high level of physiological arousal due to the surprise."
-        },
-        "Valence": {
-          "rating": 0,
-          "reasoning": "Surprise itself is neutral; the valence depends on the context, which is unknown."
-        },
-        "Dominance": {
-          "rating": -1,
-          "reasoning": "Being surprised often implies momentarily losing control or composure, suggesting a brief shift towards mild submissiveness to the event."
-        },
-        "Emotional Vulnerability": {
-          "rating": 3,
-          "reasoning": "The open, reactive expression of surprise shows a moderate level of emotional openness in the moment."
-        }
-      }
-    }
+{
+  "key": [
+    "stance-detection-part-8",
+    "gemini-2.5-flash",
+    "flux_dev_one_1-254_s3649864920.png"
+  ],
+  "value": {
+    "Positive High-Energy Emotions|Amusement": 0,
+    "Positive High-Energy Emotions|Elation": 0,
+    "Positive High-Energy Emotions|Pleasure/Ecstasy": 0,
+    "Positive Low-Energy Emotions|Contentment": 0,
+    "Positive Low-Energy Emotions|Thankfulness/Gratitude": 0,
+    "Positive Low-Energy Emotions|Affection": 0,
+    "Longing & Lust|Infatuation": 0,
+    "Positive High-Energy Emotions|Hope/Enthusiasm/Optimism": 0,
+    "Positive High-Energy Emotions|Triumph": 0,
+    "Positive Low-Energy Emotions|Pride": 0,
+    "Positive High-Energy Emotions|Interest": 4,
+    "Positive High-Energy Emotions|Awe": 2,
+    "Positive High-Energy Emotions|Astonishment/Surprise": 7,
+    "Cognitive States and Processes|Concentration": 0,
+    "Positive Low-Energy Emotions|Contemplation": 0,
+    "Positive Low-Energy Emotions|Relief": 0,
+    "Longing & Lust|Longing": 0,
+    "Positive High-Energy Emotions|Teasing": 0,
+    "Negative High-Energy Emotions|Impatience and Irritability": 0,
+    "Longing & Lust|Sexual Lust": 0,
+    "Negative Low-Energy Emotions|Doubt": 0,
+    "Negative High-Energy Emotions|Fear": 1,
+    "Negative High-Energy Emotions|Distress": 0,
+    "Cognitive States and Processes|Confusion": 1,
+    "Negative Low-Energy Emotions|Embarrassment": 0,
+    "Negative Low-Energy Emotions|Shame": 0,
+    "Negative Low-Energy Emotions|Disappointment": 0,
+    "Negative Low-Energy Emotions|Sadness": 0,
+    "Negative Low-Energy Emotions|Bitterness": 0,
+    "Negative Low-Energy Emotions|Contempt": 0,
+    "Negative High-Energy Emotions|Disgust": 0,
+    "Negative High-Energy Emotions|Anger": 0,
+    "Negative High-Energy Emotions|Malevolence/Malice": 0,
+    "Physical and Exhaustive States|Sourness": 0,
+    "Physical and Exhaustive States|Pain": 0,
+    "Negative Low-Energy Emotions|Helplessness": 0,
+    "Physical and Exhaustive States|Fatigue/Exhaustion": 0,
+    "Negative Low-Energy Emotions|Emotional Numbness": 0,
+    "Physical and Exhaustive States|Intoxication/Altered States of Consciousness": 0,
+    "Negative Low-Energy Emotions|Jealousy & Envy": 0
   }
-]
+}
